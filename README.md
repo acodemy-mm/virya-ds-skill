@@ -2,7 +2,9 @@
 
 Public Cursor skill for KBZ Bank / Virya / mBanking UI. Auto-applies when building Virya screens, components, or the design-system canvas.
 
-The interactive canvas renders in Cursor (Open Canvas). Cloning this repo does not open a website — copy `canvases/virya-design-system.canvas.tsx` into a Cursor project and use **Open Canvas**.
+**Live page:** https://acodemy-mm.github.io/virya-ds-skill/
+
+The same design-system canvas also opens in Cursor via **Open Canvas**.
 
 ## Contents
 
@@ -21,7 +23,18 @@ This pack lives in the repo. The agent copies it to:
 
 After install, the skill is available in every Cursor project on this machine.
 
-## Open the canvas
+## View in the browser
+
+https://acodemy-mm.github.io/virya-ds-skill/
+
+Local preview:
+
+```bash
+npm install
+npm run dev
+```
+
+## Open the canvas in Cursor
 
 1. Press `Cmd+P`
 2. Type `virya-design-system.canvas.tsx`
@@ -30,7 +43,7 @@ After install, the skill is available in every Cursor project on this machine.
 
 If the current project has no copy, copy `canvases/virya-design-system.canvas.tsx` into `~/.cursor/projects/<workspace>/canvases/`.
 
-Do **not** open the `.canvas.tsx` path as a browser URL (`https://users/...` fails with `ERR_NAME_NOT_RESOLVED`).
+Do **not** paste the `.canvas.tsx` path into Chrome as a `file://` or `https://users/...` URL. Use the GitHub Page above instead.
 
 ## Updated
 

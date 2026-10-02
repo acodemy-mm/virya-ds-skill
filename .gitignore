@@ -1,4 +1,5 @@
 .DS_Store
 node_modules/
+dist/
 *.canvas.data.json
 *.canvas.status.json
