@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+*.canvas.data.json
+*.canvas.status.json
